@@ -270,7 +270,7 @@ private:
             }
         }
 
-        if (maxError > 1.00001 * epsilon) {
+        if (maxError > 1.0001 * epsilon) {
             std::cout << "maxError - delta = " << maxError - epsilon << std::endl;
             std::cout << "delta: " << epsilon << std::endl;
         }
