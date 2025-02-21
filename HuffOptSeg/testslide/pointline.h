@@ -40,15 +40,6 @@ typedef struct Line
 }Line;
 
 
-typedef struct Triple
-{
-	double t;
-	double ts;
-	double te;
-}Triple;
-
-Triple tripleCreate(double tVal, double tsVal, double teVal);
-void coutTriple(deque<Triple> deTri);
 
 Point pointCreate(double xVal, double yVal);
 void pointCreate(Point &newPoint, double xVal, double yVal);

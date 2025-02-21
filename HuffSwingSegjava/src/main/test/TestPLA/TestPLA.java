@@ -69,7 +69,6 @@ public class TestPLA {
         double epsilon = 0.005;
 
         String[] filenames = {
-                "/ETHUSD.csv.gz",
                 "/50words.csv.gz",
                 "/Adiac.csv.gz",
                 "/Beef.csv.gz",

@@ -9,27 +9,6 @@ Point pointCreate(double xVal, double yVal)
 	return newPoint;
 }
 
-Triple tripleCreate(double tVal, double tsVal, double teVal)
-{
-	Triple newTriple;
-	newTriple.t=tVal;
-	newTriple.ts=tsVal;
-	newTriple.te=teVal;
-	return newTriple;
-}
-
-
-void coutTriple(deque<Triple> deTri)
-{
-	long num = deTri.size();
-	while(num>0)
-	{
-		cout<< "{" << deTri[num-1].t << ",[" <<  deTri[num-1].ts << "," << deTri[num-1].te << "]};";
-		num--;
-	}
-	cout<<endl;
-	return;
-}
 
 
 void pointCreate(Point &newPoint, double xVal, double yVal)

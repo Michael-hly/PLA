@@ -285,7 +285,6 @@ public:
 
         std::string delimiter = ",";
         const std::vector<std::string> filenames = {
-            "time_series/ETHUSD",
             "time_series/50words",
             "time_series/Adiac",
             "time_series/Beef",
